@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Davidoff</title>
+  <title>davidoff агкаврыоалы</title>
   <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag :defaults %>
+  <%= javascript_include_tag "imageflow" %>
+  <%= javascript_include_tag "flow_id" %>
   <%= csrf_meta_tag %>
 </head>
-<body>
-
-<%= yield %>
-
+<body id="page-web">
+<div id="wrapper">
+	<div id="header">
+		<h1>Агентство DAVIDOFF Brandmaker</h1>
+		<ul id="head-menu">
+			<li><a href="#" class="about">О нас </a></li>
+			<li><a href="#" class="about-brand">О брендах </a></li>
+			<li><a href="portfolio.html" class="portfolio">Портфолио </a></li>
+			<li><a href="#" class="forum">Форум </a></li>
+			<li><a href="#" class="expertise">Экспертиза </a></li>
+			<li><a href="index4.html" class="contact">Контакты </a></li>
+		</ul>
+	</div>
+	<div id="center">
+		<div id="portfolio-cont">
+			<%= yield %>
+		</div>
+    </div>
+		
+	
+	
+	<div id="footer">
+	<div id="red-corn"></div>
+	<br/>
+	<p>Агентство &#171;Davidoff Brandmaker&#187; &copy; 2009</p>
+		<%= link_to "Вэб сайты", :controller => "projects", :action => "list" %>
+		
+		
+	</div>
+</div>
 </body>
 </html>

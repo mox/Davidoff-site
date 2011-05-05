@@ -1,0 +1,210 @@
+﻿* { margin:0; padding:0;}
+body { background:#fff; 
+	font-size:100%; 
+	font-family:Tahoma, Verdana, Geneva; 
+	color:#929292; 
+	margin:0; padding:0;
+	line-height:1.286em;
+	}
+img {margin:0;padding:0;border:none;}
+/* layout*/
+#wrapper{width:900px;margin:0 auto;}
+.right {float:left;}
+.left {float:right;}
+.clear{clear:both;}
+/* header*/
+#header{margin-top:50px;height:205px;}
+#page1 #header,#page3 #header, #page4 #header, #page5 #header, #page-web #header{background:#fff url(../images/shapka-line.jpg) 50% 99% no-repeat;}
+#header h1{text-indent:-5000px;background: url(../images/davidoff-brandmaker-logo.jpg) no-repeat;width:200px;height:116px;margin:0 auto;}
+#page4 #center{height:100%;background:none;}
+#page5 #center{height:535px;background:none;}
+#page-web #center{height:400px; background:none;}
+#page-web .caption{color:#b7313c;margin-top:10px;}
+#page-web .gallery{top:-130px;}
+/* center */
+#center{margin-top:-20px;padding:0;background:url(../images/center-line.jpg) 50% 0% no-repeat;width:900px;height:556px;z-index:4;}
+#brand-style {width:200px;margin:0 auto;z-index:1;}
+#brand-style h2{
+	text-align:center;
+	font-size:13pt;
+	font-weight:bolder;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	color:#b7313c;
+	line-height: 16pt;}
+#brand-style a{
+	width:83px;
+	text-indent:-900%;
+	display:block;
+	background:url(../images/babo4ka.jpg) 0 0px no-repeat;
+	height:37px;
+	margin:20px 0 0 55px;}
+#brand-style a:hover{background-position:0 -37px;}
+/* page 2*/
+#page2 #header{background:none;}
+#page2 #cent-menu{position:absolute;top:177px;z-index:5;}
+#page2 #cent-menu a{position:relative;display:block;width:140px;text-decoration:none;color:#a4a3a3;text-align:center;}
+#page2 #cent-menu a span{font-weight:700;font-size:12pt;display:block;width:130px;}
+/*cent menu*/
+#page2 #cent-menu .flash:hover,#page2 #cent-menu .html:hover{background-position:0 0;color:#b7313c;}
+#page2 #cent-menu .flash{
+	left:140px;
+	padding-left:0px;
+	padding-top:150px;
+	background: url(../images/flash.jpg) -138px 0px no-repeat; 
+	width:138px;}
+#page2 #cent-menu .html{
+	left:140px;
+	padding-left:0px;
+	padding-top:150px;
+	background: url(../images/html.jpg) -138px 0px no-repeat; 
+	width:138px;}
+#page2 #cent-menu p{width:270px;text-align:center;padding-left:70px; font-size:10pt;color:#888;}
+/* left to right */
+#page2 .left{width:300px;margin-left:180px;}
+#page2 .right{width:300px;}
+#page2 .left h2{margin-left:345px;}
+.top h2{text-transform:uppercase;margin-bottom:300px;font-size:10pt;color:#b7313c;letter-spacing:1px;}
+.left h2{text-align:right;}
+.right h2 {text-align:left;}
+/* page 3 */
+#page3 .left, #page3 .right{width:320px;font-size:10pt;margin:0 30px;}
+#page3 .left p{text-align:right;}
+#page3 #cent-menu h2{text-transform:uppercase;font-size:11pt;line-height:16pt;color:#b7313c;}
+#page3 #cent-menu a{display:inline;text-decoration:underline;}
+#page3 #cent-menu a:hover{text-decoration:none;}
+div.blok, div.blok_2{margin:0 0 30px 0;}
+div.blok_2{width:120%;}
+div.blok p,div.blok_2 p{margin-bottom:10px;width:100%;}
+.left .blok_2{margin-left:-60px;}
+/* page 4 */
+#contact {margin:0 auto;width:75%;text-align:center;font-size:10pt;color:#505050;}
+#contact p span{text-transform:uppercase;}
+#contact a{color:#b7313c;}
+#contact a:hover{text-decoration:none;}
+#contact img{margin:15px 0;}
+.red-bold {font-weight:700;color:#b7313c;}
+/* meny-top */
+ul#head-menu li{display: inline;margin-right:0px;}
+#head-menu{list-style: none;padding: 0;margin-top: -25px;width: 900px;position: relative;z-index:3;}
+#head-menu a{text-indent:-900%; position:absolute; outline:none;}
+#head-menu .about:hover,#head-menu .about-brand:hover,#head-menu .portfolio:hover,#head-menu .forum:hover ,#head-menu .expertise:hover,#head-menu .contact:hover{background-position: 0 0;}
+#head-menu .about{
+	margin:36px 0 0 30px;
+	width: 43px;
+	height: 23px;
+	background: url(../images/about.jpg) 0 -26px no-repeat;}
+#head-menu .about-brand{
+	margin:15px 0 0 103px;
+	width: 80px;
+	height: 25px;
+	background: url(../images/about-brand.jpg) 0 -26px no-repeat;}
+#head-menu .portfolio {
+	margin:0 0 0 215px;
+	width: 91px;
+	height: 23px;
+	background: url(../images/portfolio.jpg) 0 -26px no-repeat;}
+#head-menu .forum {
+	margin:0 0 0 595px;
+	width: 52px;
+	height: 21px;
+	background: url(../images/forum.jpg) 0 -26px no-repeat;}
+#head-menu .expertise {
+	margin:10px 0 0 677px;
+	width: 91px;
+	height: 25px;
+	background: url(../images/expertise.jpg) 0 -26px no-repeat;}
+#head-menu .contact {
+	margin:30px 0 0 797px;
+	width: 78px;
+	height: 26px;
+	background: url(../images/contact.jpg) 0 -26px no-repeat;}
+#head-menu .expertise-ov,#head-menu .contact-ov,#head-menu .forum-ov,#head-menu .about-brand-ov,#head-menu .about-ov, #head-menu .portfolio-ov{
+	background-position:0 0;
+	text-indent:-900%; 
+	position:absolute; 
+	outline:none;}
+#head-menu .contact-ov{
+	margin:30px 0 0 797px;
+	width: 78px;
+	height: 26px;
+	background:url(../images/contact.jpg) no-repeat;
+	}
+#head-menu .portfolio-ov{
+	margin:0 0 0 215px;
+	width: 91px;
+	height: 23px;
+	background: url(../images/portfolio.jpg) no-repeat;
+	}
+/* centr menu */
+#cent-menu{margin-top:-50px;}
+#cent-menu a{position:relative;display:block;width:275px;text-decoration:none;color:#a4a3a3;text-align:center;line-height: 16pt;}
+#cent-menu a span{font-weight:900;font-size:14pt;display:block;width:130px;}
+#cent-menu .web-site:hover,#cent-menu .photo:hover, #cent-menu .naruzh-reklama:hover
+{	background-position:0 -138px;
+	color: #b7313c;}
+#cent-menu .firm-style:hover,#cent-menu .graph-design:hover,#cent-menu .polygraph:hover
+{
+	background-position: 135px -138px;
+	color: #b7313c;}
+/* right */
+#cent-menu .firm-style{
+	top:0px;
+	left:40px;
+	padding-right:0px;
+	padding-top:50px;
+	background: url(../images/firm-style.jpg) 135px 0px no-repeat; 
+	height:88px;
+	width:275px;}
+#cent-menu .graph-design{
+	top:30px;
+	left:85px;
+	padding-right:0px;
+	padding-top:50px;
+	background: url(../images/graph-design.jpg) 135px 0px no-repeat; 
+	height:88px;
+	width:275px;}
+#cent-menu .polygraph{
+	top:60px;
+	left:120px;
+	padding-right:0px;
+	padding-top:50px;
+	background: url(../images/polygraph.jpg) 135px 0px no-repeat; 
+	height:88px;
+	width:275px;}
+/*  left */
+#cent-menu .web-site{
+	left:110px;
+	padding-left:150px;
+	padding-top:50px;
+	background: url(../images/web-site.jpg) 0px 0px no-repeat; 
+	height:88px;
+	width:275px;}
+#cent-menu .naruzh-reklama{
+	top:30px;
+	left:70px;
+	padding-left:150px;
+	padding-top:50px;
+	background: url(../images/naruzh-reklama.jpg) 0px 0px no-repeat; 
+	height:88px;
+	width:275px;
+	}
+#cent-menu .photo{
+	top:60px;
+	left:30px;
+	padding-left:150px;
+	padding-top:50px;
+	background: url(../images/photo.jpg) 0px 0px no-repeat; 
+	height:88px;
+	width:275px;}
+/* footer */
+#page4 #red-corn, #page5 #red-corn,#page-web #red-corn{background:url(../images/footer-line.jpg) no-repeat;background-color:none;width:896px;height:58px;margin-top:-80px;}
+#page4 h2, #page5 h2, #page-web h2{color:#b7313c;font-weight:900;text-transform:uppercase;letter-spacing:3px;padding-bottom:10px;font-size:12pt;margin-top:20px;}
+#red-corn{background:#af2431;width:78px;height:5px;}
+.left #red-corn{float:right;}
+#footer{text-align:center;margin:90px 0;}
+#footer a{color:#ccc;}
+#footer a:hover{text-decoration:none;}
+
+.gallery{top:50px;position:relative;}
+.nav{position:relative;top:520px;left:220px;font-size:90%;}
