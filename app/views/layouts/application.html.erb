@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>davidoff агкаврыоалы</title>
+  <title>Агенство Davidoff Brandmaker</title>
   <%= stylesheet_link_tag :all %>
   <%= javascript_include_tag "imageflow" %>
   <%= javascript_include_tag "flow_id" %>
   <%= csrf_meta_tag %>
 </head>
-<body id="page-web">
+<body id="page-web" class="list_style">
 <div id="wrapper">
 	<div id="header">
 		<h1>Агентство DAVIDOFF Brandmaker</h1>
@@ -33,6 +33,7 @@
 	<br/>
 	<p>Агентство &#171;Davidoff Brandmaker&#187; &copy; 2009</p>
 		<%= link_to "Вэб сайты", :controller => "projects", :action => "list" %>
+		<%= link_to "Вэб сайты(редакт.)", :controller => "projects", :action => "index" %>
 		
 		
 	</div>

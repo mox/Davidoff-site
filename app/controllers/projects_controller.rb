@@ -18,6 +18,8 @@ class ProjectsController < ApplicationController
       format.xml  { render :xml => @portfolios }
     end
   end
+  
+  
 
   # GET /projects/1
   # GET /projects/1.xml

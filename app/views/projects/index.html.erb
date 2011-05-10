@@ -1,19 +1,14 @@
-<h1>Listing projects</h1>
+<h1>Список работ</h1>
 
 <table>
-  <tr>
-    <th>Name</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @projects.each do |project| %>
-  <tr>
-    <td><%= project.name %></td>
-    <td><%= link_to 'Show', project %></td>
-    <td><%= link_to 'Edit', edit_project_path(project) %></td>
-    <td><%= link_to 'Destroy', project, :confirm => 'Are you sure?', :method => :delete %></td>
+  <% @projects.each do |project| %>
+  <tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
+    <td><%= image_tag project.image.url(:thumb) %></td>
+  	<td width="200"><%= project.name %></td>
+    <td class="list_actions">
+    	<%= link_to 'Show', project %>
+    	<%= link_to 'Edit', edit_project_path(project) %>
+    	<%= link_to 'Destroy', project, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>

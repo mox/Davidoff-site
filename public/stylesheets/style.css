@@ -208,3 +208,11 @@ ul#head-menu li{display: inline;margin-right:0px;}
 
 .gallery{top:50px;position:relative;}
 .nav{position:relative;top:520px;left:220px;font-size:90%;}
+
+
+/* rails styles */ 
+#portfolio-cont {margin:0 auto;width:600px;}
+#portfolio-cont table{border:1px solid #eee;width:600px;margin-top:50px;}
+#portfolio-cont td{paddign:5px;}
+.list_line_even{background-color:#eee;}
+#page-web.list_style #center{height:100%;text-align:center;}
